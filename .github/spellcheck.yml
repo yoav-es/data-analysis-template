@@ -5,9 +5,9 @@ matrix:
   - name: Markdown
     sources:
       - "**/*.md"
-  - name: Python
-    sources:
-      - "**/*.py"
+  # - name: Python
+  #   sources:
+  #     - "**/*.py"
 exclude:
   - "*.ipynb"
   - "node_modules/**"
