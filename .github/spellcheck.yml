@@ -1,0 +1,9 @@
+version: 0.2
+dictionary:
+  - en_US
+exclude:
+  - "*.ipynb"
+  - "node_modules/**"
+  - "dist/**"
+  - ".git/**"
+  - ".github/workflows/**"
