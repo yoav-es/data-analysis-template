@@ -8,6 +8,21 @@ matrix:
   # - name: Python
   #   sources:
   #     - "**/*.py"
+custom:
+  - "{{PROJECT_TITLE}}"
+  - "{{SHORT_PROJECT_DESCRIPTION}}"
+  - "{{DATASET_DESCRIPTION}}"
+  - "{{PROJECT_OBJECTIVES}}"
+  - "{{PYTHON_VERSION}}"
+  - "{{REPOSITORY_URL}}"
+  - "{{REPOSITORY_DIRECTORY}}"
+  - "{{MAIN_NOTEBOOK}}"
+  - "{{source}}"
+  - ipynb
+  - jupyter
+  - seaborn
+  - matplotlib
+  - LICENSE
 exclude:
   - "*.ipynb"
   - "node_modules/**"
