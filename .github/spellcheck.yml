@@ -2,8 +2,12 @@ version: 0.2
 dictionary:
   - en_US
 matrix:
-  - "**/*.md"
-  - "**/*.py"
+  - name: Markdown
+    sources:
+      - "**/*.md"
+  - name: Python
+    sources:
+      - "**/*.py"
 exclude:
   - "*.ipynb"
   - "node_modules/**"
