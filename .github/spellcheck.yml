@@ -1,13 +1,17 @@
 version: 0.2
+
 dictionary:
   - en_US
+
 matrix:
   - name: Markdown
     sources:
       - "**/*.md"
+  # Uncomment below to enable Python spellcheck
   # - name: Python
   #   sources:
   #     - "**/*.py"
+
 custom:
   - "{{PROJECT_TITLE}}"
   - "{{SHORT_PROJECT_DESCRIPTION}}"
@@ -22,7 +26,12 @@ custom:
   - jupyter
   - seaborn
   - matplotlib
+  - numpy
+  - txt
+  - cd
   - LICENSE
+  - EDA
+
 exclude:
   - "*.ipynb"
   - "node_modules/**"
