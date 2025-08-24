@@ -1,6 +1,9 @@
 version: 0.2
 dictionary:
   - en_US
+matrix:
+  - "**/*.md"
+  - "**/*.py"
 exclude:
   - "*.ipynb"
   - "node_modules/**"
