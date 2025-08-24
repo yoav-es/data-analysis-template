@@ -1,11 +1,11 @@
-# {{PROJECT_TITLE}}
+# PROJECT_TITLE
 
-{{SHORT_PROJECT_DESCRIPTION}}  
+'SHORT_PROJECT_DESCRIPTION'  
 This repository provides a flexible, notebook‑driven workflow for exploring datasets, uncovering patterns, and documenting insights. It is designed to be easily adapted for different data sources and objectives.
 
 ## Overview
 
-This project analyzes **{{DATASET_DESCRIPTION}}** to answer **{{PROJECT_OBJECTIVES}}** using Python and common data science libraries within a Jupyter Notebook environment.  
+This project analyzes **DATASET_DESCRIPTION** to answer **PROJECT_OBJECTIVES** using Python and common data science libraries within a Jupyter Notebook environment.  
 All placeholder tokens can be replaced to fit your specific dataset and goals.
 
 ## Features
@@ -19,7 +19,7 @@ All placeholder tokens can be replaced to fit your specific dataset and goals.
 
 ## Prerequisites
 
-- Python {{PYTHON_VERSION}}
+- Python PYTHON_VERSION
 - Recommended packages:
   - pandas
   - matplotlib
@@ -32,8 +32,8 @@ All placeholder tokens can be replaced to fit your specific dataset and goals.
 Clone the repository and install required packages:
 
 ```sh
-git clone {{REPOSITORY_URL}}
-cd {{REPOSITORY_DIRECTORY}}
+git clone REPOSITORY_URL
+cd REPOSITORY_DIRECTORY
 pip install -r requirements.txt
 # or
 pip install pandas matplotlib jupyter
@@ -44,7 +44,7 @@ pip install pandas matplotlib jupyter
 Open the notebook and run through the analysis steps:
 
 ```sh
-jupyter notebook {{MAIN_NOTEBOOK}}.ipynb
+jupyter notebook MAIN_NOTEBOOK.ipynb
 ```
 
 Typical workflow:
